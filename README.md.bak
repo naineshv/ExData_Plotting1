@@ -1,7 +1,7 @@
 This README document consists of two sections:
 <ol>
 <li><b>Contents</b> - Describes the contents of the repository.</li>
-<li><b>Data Description</b> - This is the section below the **Contents** section has been created by __RD Peng__ the owner of the original repository from which this repository is forked.</li>
+<li><b>Data Description</b> - This is the section below the **Contents** section has been created by **RD Peng** the owner of the original repository from which this repository is forked.</li>
 </ol>
 
 ## Contents
@@ -13,7 +13,7 @@ The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) wh
 ### Usage:
 - Run the scripts a follows:  
 	- *setwd(Path to your Working Directory)*. e.g. setwd("C:\\myworkdir") 
-	- *source(Path to plot__N__.R);* e.g. source("plot1.R")
+	- *source(Path to plot**N**.R);* e.g. source("plot1.R")
 
 
 ## Introduction
