@@ -1,10 +1,3 @@
-This README document consists of two sections:
-<ol>
-<li><b>Files</b> - Describes the contents of the repository.</li>
-<li><b>Data</b> - This is the section below the <b>Contents</b> section has been created by <b>RD Peng</b> the owner of the original repository from which this repository is forked.</li>
-</ol>
-
-
 ## Contents
 The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) which produce these plots.
 * **Plots:** plot1.png, plot2.png, plot3.png and plot4.png
@@ -20,12 +13,13 @@ The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) wh
 - Each of the scripts mentioned above produces the corresponding plot as plot*.png.  
 - Each script will download the dataset file if not already downloaded in the working directory.  
 - It will then extract the required data (for 2 dates only) from the file in a dataframe.  I have used the *sqldf and dplyr* packages for the same.
-- Transform the Date variable to Date class and add a new column *DateTime* which is a combination of Date and Time variables.  The DateTime variable is used in plots where applicable.
+- It then transforms the Date variable to Date class and add a new column *DateTime* which is a combination of Date and Time variables.  The DateTime variable is used in plots where applicable.
 - Packages used: *dplyr, sqldf*
 
 
-## Data 
-The section below is the work of RD Peng.  The section describes the data and the tasks to be done for the project.
+
+## Data Description
+*The rest of the sections below describes the data and the tasks to be done for the project.  All of it is authored by **RD Peng**.*
 
 ## Introduction
 
