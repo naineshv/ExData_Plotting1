@@ -1,8 +1,8 @@
 ## Contents
-The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) which produce these plots.
+The repository contains four plots (*plotN.png*) and four scripts (*plotN.R*) which produce these plots.
 * **Plots:** plot1.png, plot2.png, plot3.png and plot4.png
 * **Scripts:** plot1.R, plot2.R, plot3.R and plot4.R
-* **Folder:** named *figure* belongs to RD Peng - It contains the reference plots.
+* **Folder:** named *figure* belongs to <b>RD Peng</b> - It contains the reference plots.
 
 ## Scripts Usage:
 - The scripts can be run as follows:  
@@ -14,6 +14,7 @@ The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) wh
 - Each script will download the dataset file if not already downloaded in the working directory.  
 - It will then extract the required data (for 2 dates only) from the file in a dataframe.  I have used the *sqldf and dplyr* packages for the same.
 - It then transforms the Date variable to Date class and add a new column *DateTime* which is a combination of Date and Time variables.  The DateTime variable is used in plots where applicable.
+- It opens the graphic device png, makes the required plot and annotates.  Then it closes the device.
 - Packages used: *dplyr, sqldf*
 
 
