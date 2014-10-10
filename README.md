@@ -19,7 +19,7 @@ The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) wh
 
 
 ## Data Description
-*The rest of the sections below describes the data and the tasks to be done for the project.  All of it is authored by **RD Peng**.*
+*The rest of the sections below describe the data and the tasks to be done for the project.  All of it is authored by <b>RD Peng</b>.*
 
 ## Introduction
 
