@@ -1,20 +1,31 @@
 This README document consists of two sections:
 <ol>
-<li><b>Contents</b> - Describes the contents of the repository.</li>
-<li><b>Data Description</b> - This is the section below the **Contents** section has been created by __RD Peng__ the owner of the original repository from which this repository is forked.</li>
+<li><b>Files</b> - Describes the contents of the repository.</li>
+<li><b>Data</b> - This is the section below the <b>Contents</b> section has been created by <b>RD Peng</b> the owner of the original repository from which this repository is forked.</li>
 </ol>
 
+
 ## Contents
-The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) which produce those plots.
+The repository contains four plots (*plot*.png*) and four scripts (*plot*.R*) which produce these plots.
 * **Plots:** plot1.png, plot2.png, plot3.png and plot4.png
 * **Scripts:** plot1.R, plot2.R, plot3.R and plot4.R
-* **Folder:** named *figure* belongs to RD Peng
+* **Folder:** named *figure* belongs to RD Peng - It contains the reference plots.
 
-### Usage:
-- Run the scripts a follows:  
+## Scripts Usage:
+- The scripts can be run as follows:  
 	- *setwd(Path to your Working Directory)*. e.g. setwd("C:\\myworkdir") 
-	- *source(Path to plot__N__.R);* e.g. source("plot1.R")
+	- *source(Path to plotN.R);* e.g. source("plot1.R")
 
+## Working of the Scripts:
+- Each of the scripts mentioned above produces the corresponding plot as plot*.png.  
+- Each script will download the dataset file if not already downloaded in the working directory.  
+- It will then extract the required data (for 2 dates only) from the file in a dataframe.  I have used the *sqldf and dplyr* packages for the same.
+- Transform the Date variable to Date class and add a new column *DateTime* which is a combination of Date and Time variables.  The DateTime variable is used in plots where applicable.
+- Packages used: *dplyr, sqldf*
+
+
+## Data 
+The section below is the work of RD Peng.  The section describes the data and the tasks to be done for the project.
 
 ## Introduction
 
