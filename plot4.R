@@ -31,7 +31,7 @@ with(data, {
                 lines(x = DateTime, y = Sub_metering_2, type = "l", col = "red", xlab="", ylab="")
                 lines(x = DateTime, y = Sub_metering_3, type = "l", col = "blue", xlab="", ylab="")
                 title(ylab = "Energy sub metering", xlab="")
-                legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+                legend("topright", lty = 1, bty="n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
         plot(x = DateTime, y = Global_reactive_power, type = "l", xlab = "datetime")
 })
 
